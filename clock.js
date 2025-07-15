@@ -11,6 +11,7 @@ function change() {
     button.innerHTML = "Light mode";
     button.className = "btn light-mode";
   }
+  setTime(); // Update clock visuals immediately after mode change
 }
 
 const hourEl = document.querySelector(".hour");

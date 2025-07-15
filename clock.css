@@ -66,7 +66,12 @@ body {
   height: 100px;
   background-color: red;
 }
-
+.dark-mode .needle {
+  background-color: white;
+}
+.dark-mode .needle.second {
+  background-color: red;
+}
 .center-point {
   background-color: red;
   width: 10px;
@@ -111,4 +116,8 @@ body {
   line-height: 18px;
   transition: all 0.5s ease-in;
   font-size: 12px;
+}
+.dark-mode .circle {
+  background-color: white;
+  color: black;
 }
